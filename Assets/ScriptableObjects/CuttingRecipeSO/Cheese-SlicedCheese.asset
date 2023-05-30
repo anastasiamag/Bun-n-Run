@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b176784de95f2714e993f542a2defa86, type: 3}
   m_Name: Cheese-SlicedCheese
   m_EditorClassIdentifier: 
-  input: {fileID: 0}
-  output: {fileID: 0}
+  input: {fileID: 11400000, guid: 3a8c346a9cbdf1845a11dc1b454c2531, type: 2}
+  output: {fileID: 11400000, guid: 77851d139a9388c42a18e61b92249e2b, type: 2}
