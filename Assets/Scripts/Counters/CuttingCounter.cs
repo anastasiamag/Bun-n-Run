@@ -22,6 +22,12 @@ public class CuttingCounter : BaseCounter
             // There is a KitchenObject
             if (player.HasKitchenObject()) {
                 // Player has Kitchen object 
+                if ( player.GetKitchenObject().TryGetPlate(out PlateKitchenObject plateKitchenObject) ) {
+                    // Player has a plate
+                    if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectSO())) {
+                    GetKitchenObject().DestroyKitchenObject();
+                    }
+                }
             } else {
                 // Player has no KitchenObject
                 GetKitchenObject().SetKitchenObjectParent(player);
