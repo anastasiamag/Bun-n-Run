@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3227841983294466582}
   - component: {fileID: 1264817819660432944}
   - component: {fileID: 3633619175356242747}
+  - component: {fileID: 8543308027746155227}
   m_Layer: 5
   m_Name: PlateIcons
   m_TagString: Untagged
@@ -141,6 +142,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plateKitchenObject: {fileID: 4676335836572213953}
   iconTemplate: {fileID: 9005955581862877099}
+--- !u!114 &8543308027746155227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395115325667195947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a41080903ff3ef439922a1ad005dccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 2
 --- !u!1 &1682371626919529207
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f726381068e61f4498f98480ff14198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plateKitchenObject: {fileID: 0}
+  plateKitchenObject: {fileID: 4676335836572213953}
   kitchenObjectSOGameObjectList: []
 --- !u!1 &1892906329713735430
 GameObject:
