@@ -19,7 +19,10 @@ public class DeliveryManager : MonoBehaviour
     private int successfulRecipeAmount;
 
     private void Awake() {
-        Instance = this;
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
         waitingRecipeSOList = new List<RecipeSO>();
     }
 
@@ -28,7 +31,7 @@ public class DeliveryManager : MonoBehaviour
         if (spawnRecipeTimer <= 0f) {
             spawnRecipeTimer = spawnRecipeTimerMax;
 
-            if (waitingRecipeSOList.Count < waitingRecipeMax) {
+            if (GameManager.Instance.IsGamePlaying() && waitingRecipeSOList.Count < waitingRecipeMax) {
                 RecipeSO waitingRecipeSO = recipeListSO.recipeSOList[UnityEngine.Random.Range(0, recipeListSO.recipeSOList.Count)];
                 
                 waitingRecipeSOList.Add(waitingRecipeSO);

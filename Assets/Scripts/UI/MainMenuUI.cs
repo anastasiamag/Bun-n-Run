@@ -10,12 +10,17 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] private UnityEngine.UI.Button quitButton;
     [SerializeField] private UnityEngine.UI.Button howToPlayButton;
 
+    [SerializeField] private HowToPlayMainMenu howToPlayMenu;
+
+
 
     private void Awake() {
         playButton.onClick.AddListener(playClick);
         quitButton.onClick.AddListener(quitClick);
         howToPlayButton.onClick.AddListener(howToPlayClick);
-        // HowToPlay.Instance.Hide();
+        howToPlayMenu.Hide();
+       
+
     }
 
     private void playClick() {
@@ -28,6 +33,7 @@ public class MainMenuUI : MonoBehaviour
     }
 
     private void howToPlayClick() {
-        HowToPlay.Instance.Show();
+        howToPlayMenu.Show();
     }
+
 }
