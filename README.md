@@ -10,13 +10,42 @@ The «Bun 'n' Run» is a 3D game that was developed for the class "Multimedia Te
 
 <details>
 <summary> How to play </summary>
-<ul><li> The goal of this game is to deliver as many correct orders as possible. </li></ul>
+<ul><li> The goal of this game is to deliver as many correct orders as possible on time. </li></ul>
 
-![alt text](./Assets/_Assets/Textures/HowToPlay.png)
+![alt text](./Assets/_Assets/Textures/Github/HowToPlay.png)
+
+</details>
+
+<details>
+<summary> More of the game </summary>
+<ul><li>
+Main Menu
+</li></ul>
+
+![alt text](./Assets/_Assets/Textures/Github/Main-Menu.png)
+
+<ul><li>
+Gameplay
+</li></ul>
+
+![alt text](./Assets/_Assets/Textures/Github/Gameplay.png)
+
+<ul><li>
+Deliver on time
+</li></ul>
+
+![alt text](./Assets/_Assets/Textures/Github/Gameplay-2.png)
+
+<ul><li>
+You can change the keybinds as you like
+</li></ul>
+
+![alt text](./Assets/_Assets/Textures/Github/Controls.png)
 
 </details>
 <br/>
-#### There are four(4) full recipes:
+
+#### There are four(4) full recipes 📝:
 
 1. **Burger**: Bun, Patty
 2. **Cheeseburger**: Bun, Cheese, Patty
