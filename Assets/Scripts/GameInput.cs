@@ -59,7 +59,7 @@ public class GameInput : MonoBehaviour
         playerInputActions.Player.Pause.performed -= Pause_performed;
 
         // Disposing this object : playerInputActions = new PlayerInputActions();
-        // Cleans up that object and fress any memory
+        // Cleans up that object and frees any memory
         playerInputActions.Dispose();
 
     }
@@ -207,20 +207,3 @@ public class GameInput : MonoBehaviour
         .Start();
     }
 }
-
-
-//      if (Input.GetKey(KeyCode.W)) {
-//         inputVector.y = +1;
-// } 
-        
-// if (Input.GetKey(KeyCode.S)) {
-//         inputVector.y = -1;
-// } 
-        
-// if (Input.GetKey(KeyCode.A)) {
-//         inputVector.x = -1;
-// } 
-        
-// if (Input.GetKey(KeyCode.D)) {
-//         inputVector.x = +1;
-// } 

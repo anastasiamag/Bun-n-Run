@@ -24,7 +24,6 @@ public class MainMenuUI : MonoBehaviour
     }
 
     private void playClick() {
-        // SceneManager.LoadScene(1);
         Loader.Load(Loader.Scene.GameScene);
     }
 

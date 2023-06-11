@@ -23,7 +23,6 @@ public class Counter : BaseCounter
                 // Player has Kitchen object 
                 if ( player.GetKitchenObject().TryGetPlate(out PlateKitchenObject plateKitchenObject) ) {
                     // Player has a plate
-                    // PlateKitchenObject plateKitchenObject = player.GetKitchenObject() as PlateKitchenObject;
                     if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectSO())) {
                     GetKitchenObject().DestroyKitchenObject();
                     }
@@ -43,29 +42,3 @@ public class Counter : BaseCounter
         }
      }
 }
-
-
-
-//   [SerializeField] private Counter secondCounter;
-    //   [SerializeField] private bool testing;
-
-    //   private void Update() {
-    //     if (testing && Input.GetKeyDown(KeyCode.T)) {
-    //         if(kitchenObject!=null) {
-    //             kitchenObject.SetKitchenObjectParent(secondCounter);
-    //         }
-    //   }
-    //   }
-
-
-    // //overrides the base function 
-    //  public override void InteractionCounter(Player player) {
-    //     if (kitchenObject == null) { 
-    //     Transform kitchenObjectTransform = Instantiate(kitchenObjectSO.prefab, counterTop);
-    //     kitchenObjectTransform.GetComponent<KitchenObject>().SetKitchenObjectParent(this);
-    //     } else {
-    //         //The player gets the object
-    //         kitchenObject.SetKitchenObjectParent(player);
-    //     }
-
-    // }

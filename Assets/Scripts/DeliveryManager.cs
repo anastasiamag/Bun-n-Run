@@ -81,7 +81,7 @@ public class DeliveryManager : MonoBehaviour
 
         // No match found!
         // player did not deliver a correct recipe
-        Debug.Log("player did not deliver a correct recipe");
+        // Debug.Log("player did not deliver a correct recipe");
     }
 
 

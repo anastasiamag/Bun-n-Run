@@ -23,7 +23,6 @@ public class HowToPlay : MonoBehaviour
     public void Show() {
 
         gameObject.SetActive(true);
-        // gamepadInteractButton.Select();
     }
 
     private void Hide() {
