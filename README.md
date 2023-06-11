@@ -42,6 +42,12 @@ You can change the keybinds as you like
 
 ![alt text](./Assets/_Assets/Textures/Github/Controls.png)
 
+<ul><li>
+Game Over, Congratulations! You can play again!
+</li></ul>
+
+![alt text](./Assets/_Assets/Textures/Github/Game-Over.png)
+
 </details>
 <br/>
 

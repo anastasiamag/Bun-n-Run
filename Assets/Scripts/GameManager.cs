@@ -22,10 +22,9 @@ public class GameManager : MonoBehaviour
     }
 
     private State state;
-    // private float waitingToStartTimer= 1f;
     private float countdownToStartTimer= 3f;
     private float gamePlayingTimer;
-    private float gamePlayingTimerMax= 40f;
+    private float gamePlayingTimerMax= 60f;
     private bool IsGamePaused = false;
 
 
@@ -57,11 +56,6 @@ public class GameManager : MonoBehaviour
         switch (state){
 
             case State.WaitingToStart:
-                // waitingToStartTimer -= Time.deltaTime;
-                // if (waitingToStartTimer < 0f) {
-                //     state = State.CountdownToStart;
-                //     onStateChanged?.Invoke(this, EventArgs.Empty);
-                // }
             break;
 
             case State.CountdownToStart:
