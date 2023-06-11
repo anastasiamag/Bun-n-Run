@@ -16,7 +16,7 @@ The «Bun 'n' Run» is a 3D game that was developed for the class "Multimedia Te
 
 </details>
 <br/>
-#### There are four(4) full recipes 🫓:
+#### There are four(4) full recipes:
 
 1. **Burger**: Bun, Patty
 2. **Cheeseburger**: Bun, Cheese, Patty
